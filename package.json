@@ -1,0 +1,13 @@
+{
+  "name": "@mnemoverse/monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build:public": "nx run-many --target=build --projects=tag:public",
+    "test:public": "nx run-many --target=test --projects=tag:public",
+    "publish:public": "node scripts/publish-public-packages.js"
+  }
+}

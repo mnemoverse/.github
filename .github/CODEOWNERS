@@ -1,0 +1,14 @@
+# Private folders - only core team
+/packages/core/ @mnemoverse/core-team
+/packages/analytics/ @mnemoverse/core-team
+/infrastructure/ @mnemoverse/devops
+
+# Public-ready folders - wider team access
+/packages/sdk/ @mnemoverse/sdk-team
+/packages/ui/ @mnemoverse/frontend-team
+/docs/public/ @mnemoverse/docs-team
+
+# Never sync these
+/secrets/ @izgorodin
+/.env* @izgorodin
+/packages/proprietary/ @mnemoverse/core-team

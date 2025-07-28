@@ -1,0 +1,32 @@
+name: Sync Public Code
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'packages/sdk/**'
+      - 'packages/ui/**'
+      - 'packages/utils/**'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          
+      - name: Setup Git
+        run: |
+          git config --global user.name "Mnemoverse Bot"
+          git config --global user.email "bot@mnemoverse.com"
+          
+      - name: Sync to Public Repos
+        env:
+          GITHUB_TOKEN: ${{ secrets.PUBLIC_SYNC_TOKEN }}
+        run: |
+          # Sync SDK
+          ./scripts/sync-public.sh packages/sdk mnemoverse/sdk-public
+          
+          # Sync UI Components
+          ./scripts/sync-public.sh packages/ui mnemoverse/ui-public

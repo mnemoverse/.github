@@ -1,0 +1,23 @@
+# Приватные workflow'ы и скрипты
+workflows/sync-docs-public.yml
+workflows/sync-public.yml
+scripts/
+files/
+packages/
+
+# Приватные конфигурации
+.privateignore
+*.env
+*.key
+*secret*
+*private*
+
+# Временные файлы
+temp/
+tmp/
+.DS_Store
+
+# Логи и кэши
+*.log
+.cache/
+node_modules/

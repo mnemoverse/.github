@@ -1,0 +1,6 @@
+[submodule "packages/public-sdk"]
+    path = packages/public-sdk
+    url = https://github.com/mnemoverse/sdk.git
+[submodule "packages/ui-kit"]
+    path = packages/ui-kit
+    url = https://github.com/mnemoverse/ui-kit.git

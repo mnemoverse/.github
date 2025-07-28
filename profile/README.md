@@ -1,11 +1,10 @@
 <div align="center">
   <h1>
-    <img src="https://raw.githubusercontent.com/mnemoverse/mnemoverse/main/.github/files/logo.png" alt="Mnemoverse" width="60"/>
+    <img src="../files/logo.png" alt="Mnemoverse" width="60"/>
   </h1>
   <p><strong>We make intelligent agents understand complex projects as naturally as intelligent humans do</strong></p>
   
   [![Website](https://img.shields.io/badge/Website-mnemoverse.com-blue)](https://mnemoverse.com)
-  [![MCP Server](https://img.shields.io/npm/v/@mnemoverse/mcp-docs-server)](https://www.npmjs.com/package/@mnemoverse/mcp-docs-server)
   [![Research](https://img.shields.io/badge/Research-300%2B%20Sources-green)](https://mnemoverse.com/docs/research/library.html)
 </div>
 
@@ -63,7 +62,7 @@ By 2028, we will be the cognitive layer for AI agents:
 <div align="center">
   <p><em>"We're not building a better search engine. We're building a mind that remembers."</em></p>
   <p><strong>
-    <img src="https://raw.githubusercontent.com/mnemoverse/mnemoverse/main/.github/files/logo.png" alt="Mnemoverse" width="20"/>
+    <img src="../files/logo.png" alt="Mnemoverse" width="20"/>
     Building the cognitive layer for AI agents | 🎮 Where memory becomes a world
   </strong></p>
 </div>

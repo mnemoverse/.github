@@ -2,7 +2,6 @@
 workflows/sync-docs-public.yml
 workflows/sync-public.yml
 scripts/
-files/
 packages/
 
 # Приватные конфигурации

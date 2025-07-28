@@ -5,7 +5,6 @@
 - 📚 Explore our [research library](https://mnemoverse.com/docs/research/library.html)><strong>We make intelligent agents understand complex projects as naturally as intelligent humans do</strong></p>
   
   [![Website](https://img.shields.io/badge/Website-mnemoverse.com-blue)](https://mnemoverse.com)
-  [![MCP Server](https://img.shields.io/npm/v/@mnemoverse/mcp-docs-server)](https://www.npmjs.com/package/@mnemoverse/mcp-docs-server)
   [![Research](https://img.shields.io/badge/Research-300%2B%20Sources-green)](https://mnemoverse.com/docs/research/library.html)
 </div>
 
@@ -29,9 +28,9 @@ To create the infrastructure for persistent, collaborative agent intelligence th
 ## 🎯 Current Status
 
 ### ✅ **Production Ready & Open Source**
-- **[@mnemoverse/mcp-docs-server](https://www.npmjs.com/package/@mnemoverse/mcp-docs-server)** - MCP server for AI assistants
-- **[Research Library](https://mnemoverse.com/docs/research/library.html)** - AI research database with 300+ sources
-- **[Documentation](https://mnemoverse.com/docs/)** - Comprehensive guides and technical specifications
+- **@mnemoverse/mcp-docs-server** - MCP server for AI assistants
+- **Research Library** - AI research database with 300+ sources
+- **Documentation** - Comprehensive guides and technical specifications
 ### 🚧 **In Development**
 - **Mnemoverse Arch** - Multi-agent orchestration with LangGraph + Mem0
 - **Chat UI** - Next.js interface with tool integration
@@ -47,10 +46,9 @@ By 2028, we will be the cognitive layer for AI agents:
 
 ## 🤝 Get Involved
 
-- 🌐 Visit our [website](https://mnemoverse.org)
-- � Read our [documentation](https://mnemoverse.org/docs)
-- � Explore our [research library](https://mnemoverse.org/research)
-- 🤖 Try our [MCP server](https://www.npmjs.com/package/@mnemoverse/mcp-docs-server)
+- 🌐 Visit our [website](https://mnemoverse.com)
+- 📖 Read our [documentation](https://mnemoverse.com/docs)
+- 📚 Explore our [research library](https://mnemoverse.com/docs/research/library.html)
 
 ## 📊 Our Values
 

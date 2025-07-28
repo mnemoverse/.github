@@ -1,10 +1,12 @@
 <div align="center">
   <h1>🧠 Mnemoverse</h1>
-  <p><strong>We make intelligent agents understand complex projects as naturally as intelligent humans do</strong></p>
+ - 🌐 Visit our [website](https://mnemoverse.com)
+- 📖 Read our [documentation](https://mnemoverse.com/docs/)
+- 📚 Explore our [research library](https://mnemoverse.com/docs/research/library.html)><strong>We make intelligent agents understand complex projects as naturally as intelligent humans do</strong></p>
   
-  [![Website](https://img.shields.io/badge/Website-mnemoverse.org-blue)](https://mnemoverse.org)
+  [![Website](https://img.shields.io/badge/Website-mnemoverse.com-blue)](https://mnemoverse.com)
   [![MCP Server](https://img.shields.io/npm/v/@mnemoverse/mcp-docs-server)](https://www.npmjs.com/package/@mnemoverse/mcp-docs-server)
-  [![Research](https://img.shields.io/badge/Research-300%2B%20Sources-green)](https://mnemoverse.org/research)
+  [![Research](https://img.shields.io/badge/Research-300%2B%20Sources-green)](https://mnemoverse.com/docs/research/library.html)
 </div>
 
 ---
@@ -28,12 +30,12 @@ To create the infrastructure for persistent, collaborative agent intelligence th
 
 ### ✅ **Production Ready & Open Source**
 - **[@mnemoverse/mcp-docs-server](https://www.npmjs.com/package/@mnemoverse/mcp-docs-server)** - MCP server for AI assistants
-- **[Research Library](https://github.com/mnemoverse/mnemoverse-research-library)** - AI research database with 300+ sources
-- **[Documentation](https://github.com/mnemoverse/mnemoverse-docs)** - Comprehensive guides and technical specifications
+- **[Research Library](https://mnemoverse.com/docs/research/library.html)** - AI research database with 300+ sources
+- **[Documentation](https://mnemoverse.com/docs/)** - Comprehensive guides and technical specifications
 ### 🚧 **In Development**
-- **[Mnemoverse Arch](https://github.com/mnemoverse/mnemoverse-arch)** - Multi-agent orchestration with LangGraph + Mem0
-- **[Chat UI](https://github.com/mnemoverse/mnemoverse-chat-ui)** - Next.js interface with tool integration
-- **[Universal MCP Index](https://github.com/mnemoverse/mnemoverse)** - Tool coordination at scale
+- **Mnemoverse Arch** - Multi-agent orchestration with LangGraph + Mem0
+- **Chat UI** - Next.js interface with tool integration
+- **Universal MCP Index** - Tool coordination at scale
 
 ## 🎯 Measurable Goals (3-Year Vision)
 

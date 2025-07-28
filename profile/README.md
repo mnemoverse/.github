@@ -1,6 +1,7 @@
 <div align="center">
-  <h1>
-    <img src="../files/logo.png" alt="Mnemoverse" width="60"/>
+  <h1 align="center" style="display: flex; align-items: center; justify-content: center; gap: 16px;">
+    <img src="../files/logo.png" alt="Mnemoverse logo: stylized blue wave forming an M, symbolizing AI memory, cognitive layer, and intelligent agents. Mnemoverse brand for universal agent intelligence." width="60"/>
+    <span><strong>Mnemoverse</strong></span>
   </h1>
   <p><strong>We make intelligent agents understand complex projects as naturally as intelligent humans do</strong></p>
   

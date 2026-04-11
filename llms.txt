@@ -1,0 +1,131 @@
+# Mnemoverse — Persistent Memory API for AI Agents
+
+> One memory. Every AI tool. Write once, recall anywhere.
+
+## What is Mnemoverse
+
+Mnemoverse is a persistent memory API. It stores preferences, decisions, lessons, and context — and makes them available across Claude, ChatGPT, Cursor, VS Code, and any tool. One API key, same memories everywhere.
+
+Not a vector database. Memory that learns (Hebbian associations), forgets (consolidation), and improves over time (feedback loop).
+
+## API
+
+Base URL: https://core.mnemoverse.com/api/v1
+Auth: X-Api-Key header (or Authorization: Bearer)
+Get your free key: https://console.mnemoverse.com
+
+### Endpoints
+
+POST /memory/write    — Store a memory (content, concepts[], domain)
+POST /memory/read     — Search memories (query, top_k, domain)
+POST /memory/feedback — Rate usefulness (atom_ids[], outcome -1..1)
+GET  /memory/stats    — Memory statistics (total atoms, domains, etc.)
+POST /memory/write-batch  — Store up to 500 memories at once
+POST /memory/read-batch   — Batch query up to 50 queries
+POST /memory/consolidate  — Merge similar memories (sleep-like)
+
+### Quick Example (Python)
+
+pip install mnemoverse
+
+from mnemoverse import MnemoClient
+client = MnemoClient(api_key="mk_live_YOUR_KEY")
+client.write("User prefers Railway for deploys", concepts=["deploy", "railway"])
+results = client.read("how does the user deploy?")
+
+### Quick Example (curl)
+
+curl -X POST https://core.mnemoverse.com/api/v1/memory/write \
+  -H "X-Api-Key: mk_live_YOUR_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"content": "User prefers Railway", "concepts": ["deploy", "railway"]}'
+
+curl -X POST https://core.mnemoverse.com/api/v1/memory/read \
+  -H "X-Api-Key: mk_live_YOUR_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"query": "how does the user deploy?", "top_k": 5}'
+
+## Setup by Tool
+
+### Claude Code (one command)
+
+claude mcp add mnemoverse \
+  -e MNEMOVERSE_API_KEY=mk_live_YOUR_KEY \
+  -- npx -y @mnemoverse/mcp-memory-server
+
+### Cursor (.cursor/mcp.json)
+
+{
+  "mcpServers": {
+    "mnemoverse": {
+      "command": "npx",
+      "args": ["-y", "@mnemoverse/mcp-memory-server"],
+      "env": { "MNEMOVERSE_API_KEY": "mk_live_YOUR_KEY" }
+    }
+  }
+}
+
+### VS Code (.vscode/mcp.json)
+
+{
+  "servers": {
+    "mnemoverse": {
+      "command": "npx",
+      "args": ["-y", "@mnemoverse/mcp-memory-server"],
+      "env": { "MNEMOVERSE_API_KEY": "mk_live_YOUR_KEY" }
+    }
+  }
+}
+
+### Claude Desktop (~/Library/Application Support/Claude/claude_desktop_config.json)
+
+{
+  "mcpServers": {
+    "mnemoverse": {
+      "command": "npx",
+      "args": ["-y", "@mnemoverse/mcp-memory-server"],
+      "env": { "MNEMOVERSE_API_KEY": "mk_live_YOUR_KEY" }
+    }
+  }
+}
+
+### Windsurf (~/.codeium/windsurf/mcp_config.json)
+
+Same format as Cursor config above.
+
+### ChatGPT (Custom GPT with Actions)
+
+Import OpenAPI spec from: https://mnemoverse.com/docs/openapi-gpt.yaml
+Auth type: API Key, header name: X-Api-Key, value: mk_live_YOUR_KEY
+Manual setup required — see https://mnemoverse.com/docs/api/chatgpt
+
+### Any tool (REST API)
+
+Use the curl examples above. Any tool that can make HTTP requests can use Mnemoverse.
+
+## MCP Server Tools
+
+After setup, your AI gets 4 tools:
+
+memory_write(content, concepts?, domain?)  — Store a memory
+memory_read(query, top_k?, domain?)        — Search memories
+memory_feedback(atom_ids[], outcome)        — Rate usefulness
+memory_stats()                             — Check memory state
+
+## Pricing
+
+Free    $0/mo    1,000 queries/day    10,000 atoms    60 req/min
+Pro     $29/mo   50,000 queries/day   500,000 atoms   600 req/min
+Team    $149/mo  500,000 queries/day  5,000,000 atoms  3,000 req/min
+
+Enterprise — custom pricing, unlimited, SSO/SAML, dedicated infrastructure.
+
+## Links
+
+Documentation: https://mnemoverse.com/docs/
+Console (sign up): https://console.mnemoverse.com
+API Reference: https://mnemoverse.com/docs/api/reference
+OpenAPI spec (for GPT Actions): https://mnemoverse.com/docs/openapi-gpt.yaml
+Python SDK: pip install mnemoverse
+MCP Server: npx @mnemoverse/mcp-memory-server
+GitHub: https://github.com/mnemoverse

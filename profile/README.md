@@ -1,70 +1,73 @@
 <div align="center">
   <h1 align="center" style="display: flex; align-items: center; justify-content: center; gap: 16px;">
-    <img src="../files/logo.png" alt="Mnemoverse logo: stylized blue wave forming an M, symbolizing AI memory, cognitive layer, and intelligent agents. Mnemoverse brand for universal agent intelligence." width="60"/>
+    <img src="../files/logo.png" alt="Mnemoverse" width="60"/>
     <span><strong>Mnemoverse</strong></span>
   </h1>
-  <p><strong>We make intelligent agents understand complex projects as naturally as intelligent humans do</strong></p>
-  
-  [![Website](https://img.shields.io/badge/Website-mnemoverse.com-blue)](https://mnemoverse.com)
-  [![Research](https://img.shields.io/badge/Research-300%2B%20Sources-green)](https://mnemoverse.com/docs/research/library.html)
+  <p><strong>One memory. Every AI tool.</strong></p>
+  <p>Persistent memory API for AI agents — write once, recall anywhere.</p>
+
+  [![Docs](https://img.shields.io/badge/Docs-mnemoverse.com%2Fdocs-blue)](https://mnemoverse.com/docs/)
+  [![Console](https://img.shields.io/badge/Console-console.mnemoverse.com-cyan)](https://console.mnemoverse.com)
+  [![npm](https://img.shields.io/npm/v/@mnemoverse/mcp-memory-server)](https://www.npmjs.com/package/@mnemoverse/mcp-memory-server)
+  [![PyPI](https://img.shields.io/pypi/v/mnemoverse)](https://pypi.org/project/mnemoverse/)
 </div>
 
 ---
 
-## 🌟 About Us
+### For AI Agents
 
-Mnemoverse builds the **cognitive layer for AI agents** - a universal memory and understanding system that enables agents to work with any type of information (code, documentation, research) as fluidly as experienced developers navigate their mental models.
+Your agent can self-configure by reading our docs in plain text:
 
-## 🚀 Our Mission
+```
+https://raw.githubusercontent.com/mnemoverse/.github/main/llms.txt
+```
 
-To create the infrastructure for persistent, collaborative agent intelligence through specialized memory systems and universal tool coordination.
+This follows the [llms.txt standard](https://llmstxt.org/) — API reference, setup instructions for every tool, and pricing in one file.
 
-## 🛠️ What We're Building
+---
 
-- **🤖 MCP Documentation Server** - Published on npm, direct access to complete documentation in any MCP-compatible IDE
-- **📚 Research Infrastructure** - 300+ curated AI research sources with semantic search and AI librarian "Ala"  
-- **🧠 Agent Memory Systems** - Persistent knowledge bases with LangGraph-based multi-agent orchestration
-- **🔗 Universal Tool Access** - MCP coordination protocols eliminating the 128-tool limit in AI assistants
+### What is Mnemoverse
 
-## 🎯 Current Status
+Mnemoverse stores preferences, decisions, lessons, and context — and makes them available across Claude, ChatGPT, Cursor, VS Code, and any tool. One API key, same memories everywhere.
 
-### ✅ **Production Ready & Open Source**
-- **[@mnemoverse/mcp-docs-server](https://www.npmjs.com/package/@mnemoverse/mcp-docs-server)** - MCP server for AI assistants
-- **[Research Library](https://mnemoverse.com/docs/research/library.html)** - AI research database with 300+ sources
-- **[Documentation](https://mnemoverse.com/docs/)** - Comprehensive guides and technical specifications
-### 🚧 **In Development**
-- **Mnemoverse Arch** - Multi-agent orchestration with LangGraph + Mem0
-- **Chat UI** - Next.js interface with tool integration
-- **Universal MCP Index** - Tool coordination at scale
+Not a vector database. Memory that learns (Hebbian associations), consolidates (like sleep), and improves over time (feedback loop).
 
-## 🎯 Measurable Goals (3-Year Vision)
+### Get Started
 
-By 2028, we will be the cognitive layer for AI agents:
-- **100,000+ agents** using our system daily
-- **<1s response time** for 95% of queries  
-- **90% reduction** in context-related errors
-- **Supporting projects** with 10M+ lines of code
+```bash
+# Claude Code — one command
+claude mcp add mnemoverse -e MNEMOVERSE_API_KEY=mk_live_YOUR_KEY -- npx -y @mnemoverse/mcp-memory-server
 
-## 🤝 Get Involved
+# Python — three lines
+pip install mnemoverse
+```
 
-- 🌐 Visit our [website](https://mnemoverse.com)
-- 📖 Read our [documentation](https://mnemoverse.com/docs/)
-- 📚 Explore our [research library](https://mnemoverse.com/docs/research/library.html)
+Get your free API key at [console.mnemoverse.com](https://console.mnemoverse.com) — no credit card, 1,000 queries/day.
 
-## 📊 Our Values
+### Public Repositories
 
-- **� Cognitive Truth** - We model how minds actually work
-- **⚡ Radical Simplicity** - Every feature must justify its complexity
-- **🤖 Agent-First** - Built for AI agents, adapted for humans
-- **🔓 Open by Default** - Our cognitive models and protocols are open source
+| Repository | What it does |
+|-----------|-------------|
+| **[@mnemoverse/mcp-memory-server](https://github.com/mnemoverse/mcp-memory-server)** | MCP server for Claude Code, Cursor, VS Code, Windsurf |
+| **[mnemoverse (PyPI)](https://github.com/mnemoverse/mnemoverse-sdk-python)** | Python SDK — sync + async clients with retry and circuit breaker |
+| **[mcp-docs-server](https://github.com/mnemoverse/mcp-docs-server)** | MCP server template for documentation access |
+
+### Built on Research
+
+- SLoD framework published on [arXiv:2603.08965](https://arxiv.org/abs/2603.08965)
+- Benchmarked on LoCoMo (1,986 questions), HotpotQA, LongMemEval
+- 4 provisional patents filed (INPI, 2026)
+- NVIDIA Inception Program member
+
+### Links
+
+- [Documentation](https://mnemoverse.com/docs/) — guides, API reference, integration setup
+- [Console](https://console.mnemoverse.com) — sign up, API keys, usage dashboard
+- [ChatGPT setup](https://mnemoverse.com/docs/api/chatgpt) — Custom GPT with Actions
+- [llms.txt](https://raw.githubusercontent.com/mnemoverse/.github/main/llms.txt) — machine-readable docs for AI agents
 
 ---
 
 <div align="center">
-  <p><em>"We're not building a better search engine. We're building a mind that remembers."</em></p>
-  <p><strong>
-    <img src="../files/logo.png" alt="Mnemoverse" width="20"/>
-    Building the cognitive layer for AI agents | 🎮 Where memory becomes a world
-  </strong></p>
+  <sub>Persistent memory for AI agents | <a href="https://mnemoverse.com">mnemoverse.com</a></sub>
 </div>
-<sub>Built with ❤️ by the Mnemoverse team</sub>

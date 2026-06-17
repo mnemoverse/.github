@@ -48,16 +48,16 @@ Get your free API key at [console.mnemoverse.com](https://console.mnemoverse.com
 
 | Repository | What it does |
 |-----------|-------------|
-| **[@mnemoverse/mcp-memory-server](https://github.com/mnemoverse/mcp-memory-server)** | MCP server for Claude Code, Cursor, VS Code, Windsurf |
+| **[@mnemoverse/mcp-memory-server](https://github.com/mnemoverse/mcp-memory-server)** | MCP server for Claude Code, Cursor, VS Code, Windsurf — and any MCP client |
+| **[mnemoverse-vscode](https://github.com/mnemoverse/mnemoverse-vscode)** | VS Code extension — persistent memory for AI coding assistants |
 | **[mnemoverse (PyPI)](https://github.com/mnemoverse/mnemoverse-sdk-python)** | Python SDK — sync + async clients with retry and circuit breaker |
-| **[mcp-docs-server](https://github.com/mnemoverse/mcp-docs-server)** | MCP server template for documentation access |
+| **[mnemoverse-slod-paper](https://github.com/mnemoverse/mnemoverse-slod-paper)** | Code companion to the SLoD paper (arXiv:2603.08965) |
 
 ### Built on Research
 
 - SLoD framework published on [arXiv:2603.08965](https://arxiv.org/abs/2603.08965)
-- Benchmarked on LoCoMo (1,986 questions), HotpotQA, LongMemEval
-- 4 provisional patents filed (INPI, 2026)
-- NVIDIA Inception Program member
+- Benchmarked on public memory benchmarks — LoCoMo, LongMemEval, HotpotQA
+- Provisional patents filed (INPI, 2026)
 
 ### Links
 

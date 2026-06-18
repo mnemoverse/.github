@@ -11,6 +11,7 @@
     <a href="https://www.npmjs.com/package/@mnemoverse/mcp-memory-server"><img src="https://img.shields.io/npm/v/@mnemoverse/mcp-memory-server?style=flat-square&label=npm&color=cb3837" alt="npm"/></a>
     <a href="https://pypi.org/project/mnemoverse/"><img src="https://img.shields.io/pypi/v/mnemoverse?style=flat-square&label=PyPI&color=3776ab" alt="PyPI"/></a>
     <a href="https://arxiv.org/abs/2603.08965"><img src="https://img.shields.io/badge/arXiv-2603.08965-b31b1b?style=flat-square" alt="arXiv"/></a>
+    <a href="https://glama.ai/mcp/servers/mnemoverse/mcp-memory-server"><img src="https://glama.ai/mcp/servers/mnemoverse/mcp-memory-server/badges/score.svg" alt="Glama" height="20"/></a>
   </p>
 </div>
 

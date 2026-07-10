@@ -9,7 +9,6 @@ This repository contains organization-wide configuration files and community hea
 - `CONTRIBUTING.md` - Contribution guidelines  
 - `SECURITY.md` - Security policy
 - `.github/ISSUE_TEMPLATE/` - Issue templates for all repositories
-- `scripts/` - Automation scripts for repository management
 
 ## Usage
 

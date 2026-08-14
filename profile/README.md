@@ -19,7 +19,7 @@
 
 ### Not a vector database
 
-Mnemoverse stores preferences, decisions, lessons, and context — and serves them back to your agent in any tool. Memory that **learns** (Hebbian associations), **consolidates** (HDBSCAN, like sleep), and **improves with use** (outcome feedback) — not just similarity search.
+Mnemoverse stores preferences, decisions, lessons, and context — and serves them back to your agent in any tool. Memory that **learns** (Hebbian associations), **consolidates** (HDBSCAN clustering with Von Restorff protection, so distinctive memories survive compression), and **improves with use** (Rescorla-Wagner outcome feedback reranks what actually helped) — not just similarity search.
 
 ```bash
 # Claude Code — one command

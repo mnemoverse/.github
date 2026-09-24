@@ -3,7 +3,7 @@
   <h1>Mnemoverse</h1>
   <p><strong>One memory. Every AI tool.</strong></p>
   <p>Persistent memory infrastructure for AI agents — write once, recall anywhere.<br/>
-  One API key; the same memory across Claude, ChatGPT, Cursor, VS Code, and any MCP client.</p>
+  One API key or OAuth; the same memory across Claude, Cursor, VS Code, ChatGPT, and any MCP client.</p>
 
   <p>
     <a href="https://mnemoverse.com/docs/"><img src="https://img.shields.io/badge/Docs-mnemoverse.com-1f6feb?style=flat-square" alt="Docs"/></a>
@@ -19,7 +19,7 @@
 
 ### Not a vector database
 
-Mnemoverse stores preferences, decisions, lessons, and context — and serves them back to your agent in any tool. Memory that **learns** (Hebbian associations), **consolidates** (HDBSCAN clustering with Von Restorff protection, so distinctive memories survive compression), and **improves with use** (Rescorla-Wagner outcome feedback reranks what actually helped) — not just similarity search.
+Mnemoverse stores preferences, decisions, lessons, and context — and serves them back to your agent in any tool. Memory that **learns from outcomes** (report that a recalled memory helped or misled, and a Rescorla-Wagner update on the prediction error re-ranks what comes back next), with **shared rooms** that let several agents work from one memory — not just similarity search.
 
 ```bash
 # Claude Code — one command

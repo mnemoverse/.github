@@ -60,7 +60,7 @@ https://mnemoverse.com/docs/llms.txt
 - **[Documentation](https://mnemoverse.com/docs/)** — guides, API reference, integration setup
 - **[Console](https://console.mnemoverse.com)** — sign up, API keys, usage dashboard
 - **[Research library](https://mnemoverse.com/docs/research/)** — the science behind the memory layer
-- **[ChatGPT setup](https://mnemoverse.com/docs/api/chatgpt)** — Custom GPT with Actions
+- **[ChatGPT setup](https://mnemoverse.com/docs/api/chatgpt)** — the hosted MCP server as a developer-mode app with browser sign-in, or Custom GPT Actions with an API key in a Business, Enterprise or Edu workspace
 
 ---
 

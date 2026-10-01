@@ -36,7 +36,7 @@ Free API key at **[console.mnemoverse.com](https://console.mnemoverse.com)** —
 Point your agent at our machine-readable docs — API reference, per-tool setup, and pricing in one file ([llms.txt standard](https://llmstxt.org/)):
 
 ```
-https://raw.githubusercontent.com/mnemoverse/.github/main/llms.txt
+https://mnemoverse.com/docs/llms.txt
 ```
 
 ### Public repositories

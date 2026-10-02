@@ -36,7 +36,7 @@ Free API key at **[console.mnemoverse.com](https://console.mnemoverse.com)** —
 Point your agent at our machine-readable docs — API reference, per-tool setup, and pricing in one file ([llms.txt standard](https://llmstxt.org/)):
 
 ```
-https://raw.githubusercontent.com/mnemoverse/.github/main/llms.txt
+https://mnemoverse.com/docs/llms.txt
 ```
 
 ### Public repositories
@@ -60,7 +60,7 @@ https://raw.githubusercontent.com/mnemoverse/.github/main/llms.txt
 - **[Documentation](https://mnemoverse.com/docs/)** — guides, API reference, integration setup
 - **[Console](https://console.mnemoverse.com)** — sign up, API keys, usage dashboard
 - **[Research library](https://mnemoverse.com/docs/research/)** — the science behind the memory layer
-- **[ChatGPT setup](https://mnemoverse.com/docs/api/chatgpt)** — Custom GPT with Actions
+- **[ChatGPT setup](https://mnemoverse.com/docs/api/chatgpt)** — the hosted MCP server as a developer-mode app with browser sign-in, or Custom GPT Actions with an API key in a Business, Enterprise or Edu workspace
 
 ---
 

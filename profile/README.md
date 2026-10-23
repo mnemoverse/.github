@@ -19,11 +19,11 @@
 
 ### Not a vector database
 
-Mnemoverse stores preferences, decisions, lessons, and context — and serves them back to your agent in any tool. Memory that **learns from outcomes** (report that a recalled memory helped or misled, and a Rescorla-Wagner update on the prediction error re-ranks what comes back next), with **shared rooms** that let several agents work from one memory — not just similarity search.
+Mnemoverse stores preferences, decisions, lessons, and context — and serves them back to your agent in any tool. It is more than similarity search. Memory **learns from outcomes**: rating a recalled memory as helpful or misleading re-ranks what comes back next. A query also reaches memories linked to it through the concepts they share. **Shared rooms** (beta) let several agents work from one memory.
 
 ```bash
 # Claude Code — one command
-claude mcp add mnemoverse -e MNEMOVERSE_API_KEY=mk_live_YOUR_KEY -- npx -y @mnemoverse/mcp-memory-server@latest
+claude mcp add mnemoverse --scope user -e MNEMOVERSE_API_KEY=mk_live_YOUR_KEY -- npx -y @mnemoverse/mcp-memory-server@latest
 
 # Python
 pip install mnemoverse
@@ -43,7 +43,7 @@ https://mnemoverse.com/docs/llms.txt
 
 | Repository | What it does |
 |---|---|
-| **[mcp-memory-server](https://github.com/mnemoverse/mcp-memory-server)** | MCP server for Claude Code, Cursor, VS Code, Windsurf — and any MCP client |
+| **[mcp-memory-server](https://github.com/mnemoverse/mcp-memory-server)** | MCP server for Claude Code, Cursor, VS Code, Devin Desktop (formerly Windsurf) — and any MCP client |
 | **[mnemoverse-vscode](https://github.com/mnemoverse/mnemoverse-vscode)** | VS Code extension — persistent memory for AI coding assistants |
 | **[mnemoverse (PyPI)](https://github.com/mnemoverse/mnemoverse-sdk-python)** | Python SDK — sync + async clients, retry & circuit breaker |
 | **[mnemoverse-slod-paper](https://github.com/mnemoverse/mnemoverse-slod-paper)** | Code companion to the SLoD paper (arXiv:2603.08965) |
@@ -60,7 +60,7 @@ https://mnemoverse.com/docs/llms.txt
 - **[Documentation](https://mnemoverse.com/docs/)** — guides, API reference, integration setup
 - **[Console](https://console.mnemoverse.com)** — sign up, API keys, usage dashboard
 - **[Research library](https://mnemoverse.com/docs/research/)** — the science behind the memory layer
-- **[ChatGPT setup](https://mnemoverse.com/docs/api/chatgpt)** — the hosted MCP server as a developer-mode app with browser sign-in, or Custom GPT Actions with an API key in a Business, Enterprise or Edu workspace
+- **[ChatGPT setup](https://mnemoverse.com/docs/api/chatgpt)** — the hosted MCP server added as a custom MCP server with browser sign-in, or Custom GPT Actions with an API key in a Business, Enterprise or Edu workspace
 
 ---
 

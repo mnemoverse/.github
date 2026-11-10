@@ -19,7 +19,7 @@
 
 ### Not a vector database
 
-Mnemoverse stores preferences, decisions, lessons, and context — and serves them back to your agent in any tool. It is more than similarity search. Memory **learns from outcomes**: rating a recalled memory as helpful or misleading re-ranks what comes back next. A query also reaches memories linked to it through the concepts they share. **Shared rooms** (beta) let several agents work from one memory.
+Mnemoverse stores preferences, decisions, lessons, and context — and serves them back to your agent in any tool. It is more than similarity search. Memory **learns from outcomes**: rating a recalled memory as helpful or misleading re-ranks what comes back next. A query also reaches memories linked to it through the concepts they share. **Shared rooms** let several agents work from one memory.
 
 ```bash
 # Claude Code — one command
